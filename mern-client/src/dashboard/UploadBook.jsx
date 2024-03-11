@@ -19,7 +19,7 @@ import { Button, Checkbox, Label, Select, TextInput, Textarea } from 'flowbite-r
  }
  console.log(bookObj)
  // send data to db
- fetch("https://book-shelf-1.onrender.comupload-book", {
+ fetch("https://book-shelf-1.onrender.com/upload-book", {
   method: "POST",
   headers:{
     "Content-type" : "application/json",

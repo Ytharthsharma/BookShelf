@@ -13,7 +13,7 @@ const Shop = () => {
 
 
   useEffect (() =>{
-fetch("https://book-shelf-1.onrender.com0/all-books").then(res =>res.json()).then(data => setBooks(data));
+fetch("https://book-shelf-1.onrender.com/all-books").then(res =>res.json()).then(data => setBooks(data));
   },[])
 
   
